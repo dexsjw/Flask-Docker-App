@@ -9,9 +9,9 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 # docker build -t "<image-name>" .
 ## tags
 # -t: tag name
-# image-name: any name given by user usually with version e.g. python-flask-docker:0.0.0.1
+# image-name: any name given by user usually with version e.g. dexsjw/python-flask-docker:0.0.0.1
 ## e.g.
-# docker build -t "python-flask-docker:0.0.0.1" .
+# docker build -t "dexsjw/python-flask-docker:0.0.0.1" .
 
 
 ### Commands to remove/delete images
